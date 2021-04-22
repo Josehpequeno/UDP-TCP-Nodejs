@@ -1,4 +1,4 @@
-package javaCodes;
+package java_codes;
 import java.net.*;
 import java.io.*;
 public class UDPClient{

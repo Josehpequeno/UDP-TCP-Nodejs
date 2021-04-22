@@ -1,0 +1,26 @@
+{
+  "name": "udp-tcp-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "UDP-node.js",
+  "scripts": {
+    "udpserver": "node UDPServer.js",
+    "udpclient": "node UDPClient.js",
+    "run": "nodemon UDPServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josehpequeno/UDP-TCP-Nodejs.git"
+  },
+  "author": "Josehpequeno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josehpequeno/UDP-TCP-Nodejs/issues"
+  },
+  "homepage": "https://github.com/Josehpequeno/UDP-TCP-Nodejs#readme",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
