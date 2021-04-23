@@ -30,6 +30,6 @@ rl.on('SIGINT', function () {
 });
 
 rl.on("close", function () {
-    console.log("\nMessage sent \nBYE BYE !!nt = dgram.createSocket('udp4');
+    console.log("\nMessage sent \nBYE BYE !!");
 });
 
