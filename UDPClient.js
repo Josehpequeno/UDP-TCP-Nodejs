@@ -15,7 +15,7 @@ rl.question("What is your name ? ", function (name) {
         var message = `${name} said ${msg}`;
         client.send(message, 0, message.length, PORT, HOST, function (err, bytes) {
             if (err) throw err;
-            console.log('UDP message sent to ' + HOST + ':' + PORT);
+            console.log('\nUDP message sent to ' + HOST + ':' + PORT);
             client.close();
             rl.close();
         });
@@ -30,6 +30,6 @@ rl.on('SIGINT', function () {
 });
 
 rl.on("close", function () {
-    console.log("\nMessage sent \nBYE BYE !!");
+    console.log("Message sent \nBYE BYE !!");
 });
 

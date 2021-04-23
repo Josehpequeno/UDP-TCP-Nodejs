@@ -6,6 +6,8 @@
   "scripts": {
     "udpserver": "node UDPServer.js",
     "udpclient": "node UDPClient.js",
+    "tcpserver": "node TCPServer.js",
+    "tcpclient": "node TCPClient.js",
     "run": "nodemon UDPServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
