@@ -23,7 +23,7 @@ $ npm run udpserver
 $ npm run udpclient
 
 #TCP server
-$ npm run tcpclient
+$ npm run tcpserver
 
 #TCP client
 $ npm run tcpclient
