@@ -12,9 +12,10 @@ $ cd UDP-TCP-Nodejs
 
 # Install the dependencies
 $ npm install
+```
 
 ### Scripts
-
+```bash
 #UDP server
 $ npm run udpserver
 
@@ -29,3 +30,4 @@ $ npm run tcpclient
 
 # MulticastPeer (P2P)
 $ npm run p2p
+```
