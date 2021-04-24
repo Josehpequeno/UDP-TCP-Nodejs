@@ -1,6 +1,7 @@
 var PORT = 33333;
-//var HOST = '127.0.0.1';
-app.set("HOST", process.env.HOST || "localhost");
+var HOST = '127.0.0.1';
+//app.set("HOST", process.env.HOST || "localhost");
+console.log("host: ",process.env.HOST)
 
 var dgram = require('dgram');
 var server = dgram.createSocket('udp4');
