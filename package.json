@@ -4,6 +4,7 @@
   "description": "",
   "main": "UDP-node.js",
   "scripts": {
+    "start": "node UDPServer.js",
     "udpserver": "node UDPServer.js",
     "udpclient": "node UDPClient.js",
     "tcpserver": "node TCPServer.js",
